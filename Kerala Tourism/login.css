@@ -1,0 +1,176 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  padding-top: 60px;
+}
+
+/* Navbar styles */
+header {
+  background-color: #a0a4b4;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed; /* Fixed position to stay at the top */
+  width: 100%; /* Full width */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Higher z-index to ensure it stays above other elements */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-left {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-left ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation-left li {
+  margin-right: 20px;
+}
+
+.navigation-left a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+
+/* Login */
+
+.login-body {
+  background-image: url('images/img6.jpg'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  padding-bottom: 100px;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 80%; /* Adjust the width as needed */
+  max-width: 400px; /* Adjust the maximum width as needed */
+  box-sizing: border-box;
+  margin: 20px auto; /* Center the container horizontally with margin */
+}
+
+/* Footer */
+
+/* .footer {
+  background-color: #a0a4b4;
+  color: white;
+  height: 4em;
+  text-align: center;
+} */
+
+
+
+.sign-up {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.sign-up h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.sign-up label {
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+}
+
+.sign-up input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sign-up button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-up button:hover {
+  background-color: #0056b3;
+}
+
+
+/*footer*/
+/* .footer {
+  background-color: #a0a4b4;
+  color: white;
+  height: 4em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
+
+/* Footer */
+.footer {
+  background-color: #a0a4b4;
+  color: white;
+  height: 4em;
+  text-align: center;
+  height: 20px;
+  position: fixed; /* Fixed position to stay at the bottom */
+  bottom: 0; /* Stick to the bottom */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Higher z-index to ensure it stays above other elements */
+}
+
